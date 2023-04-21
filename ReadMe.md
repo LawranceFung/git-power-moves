@@ -9,7 +9,7 @@
 ## blame is hori; log is vert
 # Submodules
 # Unrelated Histories/Orphan
-## Win/Mac⇨Dev; Dev⇨QA⇨Rel; 
+## Win/Mac⇨Dev; Dev⇨QA⇨Rel; Snap/Sys/Dock⇨Dev
 # Etc
 ## push/pull from a fileshare
 ## git reset --hard HEAD^
