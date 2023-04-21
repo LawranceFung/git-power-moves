@@ -31,3 +31,10 @@
 # Stuff to work in implicitly
 ## git difftool
 ## git mergetool
+# Things I won't cover
+## Jenkins
+## GitPython
+## GitLab
+## What's in the .git folder?
+## Why doesn't my former employer use git?
+## Why is Bamboo broken?
