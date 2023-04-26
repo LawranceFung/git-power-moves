@@ -11,5 +11,5 @@ for arg in argv:
         print(arg + " is non valid regex pattern")
     else:
         valid.append(arg)
-        
+
 print("Valid: " + ", ".join(valid))
