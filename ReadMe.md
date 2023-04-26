@@ -59,9 +59,10 @@
 ## merge features; rebase off of master
 ### generally, rebase/squash before you merge, unless dev⇨rel
 # Bisect
-## manages a verbose commit history for you
+## Binary search for faulty commits
 # Log (--graph) (--format)
-# show <commit> -- <file>
+## manages a verbose commit history for you
+## show <commit> -- <file>
 # Blame
 ## blame is hori; log is vert
 # Submodules
