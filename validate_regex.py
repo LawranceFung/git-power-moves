@@ -2,7 +2,6 @@
 import re, sys, getopt
 
 argv = sys.argv[1:]
-r = re.compile('ab*')
 valid = []
 for arg in argv:
     try:
