@@ -68,6 +68,7 @@
 # Submodules
 # Unrelated Histories/Orphan
 ## Win/Mac⇨Dev; Dev⇨QA⇨Rel; Snap/Sys/Dock⇨Dev
+git switch --orphan <orphan> && git merge --squash <antecedent> --allow-unrelated-histories
 # Etc
 ## push/pull from a fileshare
 ## git reset --hard HEAD^
