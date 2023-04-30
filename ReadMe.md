@@ -94,6 +94,7 @@ git switch --orphan <orphan> && git merge --squash <antecedent> --allow-unrelate
 ## Jenkins
 ## GitPython
 ## GitLab
+## Git Notes
 ## What's in the .git folder?
 ## Why doesn't my former employer use git?
 ## Why is Bamboo broken?
