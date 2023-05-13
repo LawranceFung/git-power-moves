@@ -57,7 +57,11 @@
 
 # Rebase
 ## merge features; rebase off of master
-### generally, rebase/squash before you merge, unless dev⇨rel
+## generally, rebase/squash before you merge, unless dev⇨rel
+## autosquash
+git config --global rebase.autosquash true
+git commit --fixup <commitToSquashInto>
+git rebase --interactive --autosquash <branch>
 # Bisect
 ## Binary search for faulty commits
 # Log (--graph) (--format)
