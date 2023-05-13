@@ -1,0 +1,12 @@
+DVCS is a top 5 CS innovation.
+Don't let a huge pile of spaghetti code you.  Control your code.
+Declarative programming is cool.  Declaring what you programmed is even better.
+
+Industry-standard Git has powerful merge algorithms. You should be glad you haven't used TFS.
+
+Git's more than pull/push/clone/merge. Git is a powerful version *control* system that can detect the cause of bugs, graph branches, and refactor itself.
+
+I would not call these power moves.  They're not that difficult and everyone should know them.  
+Git was not the first distributed vcs — it won the market by enabling methodologies like feature branches, DevOps, TDD, and code reviews.
+Dont't merge --squash.  Rebase before you merge.  "Squash" doesn't capture the nuances of how your branch should merge.
+For a cleaner graph:  Merge features into master.  Rebase features off of master.
