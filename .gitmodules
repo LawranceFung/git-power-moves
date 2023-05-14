@@ -1,0 +1,3 @@
+[submodule "AHK-Workshop"]
+	path = AHK-Workshop
+	url = git@github.com:LawranceFung/AHK-Workshop.git
