@@ -81,7 +81,7 @@ git switch --orphan <orphan> && git merge --squash <antecedent> --allow-unrelate
 ## git cherry-pick <commit>
 ## git checkout master && git checkout <branch> -- <file>
 ## pull only the gitignore
-### 	git init && git remote add gitignore https://github.com/github/gitignore && git fetch && git check origin/master -m VisualStudio.gitignore
+### 	git init && git remote add gitignore git@github.com:github/gitignore.git && git checkout -b gitignore && git pull gitignore main && git switch --orphan master && git restore --source gitignore VisualStudio.gitignore && git add . && git commit -m "Initial Commit" && git mv VisualStudio.gitignore .gitignore && git commit -m "rename VisualStudio.gitignore⇨.gitignore" && git remote add origin git@github.com:<user>/<repo>.git && git push -u origin master
 ## how to create a private fork of a github repo
 ### https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274
 ## how to create a mirror proper
