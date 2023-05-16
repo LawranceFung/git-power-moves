@@ -1,3 +1,4 @@
+#! /usr/bin/python
 # Toy script for demonstrating regex
 import re, sys, getopt
 
